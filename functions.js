@@ -12,7 +12,7 @@
 // Modern JS included we now use it mostly.
  
 // const arrowSum = (a,b)=>{
-//     console.log(a+b);
+//     console.log(a+b); 
 // }; 
 // console.log(arrowSum(15,2));
 // const arrowMinus = (a,b)=>{
@@ -102,9 +102,42 @@
 // "Performs some operations and reduces the array to a single value. it returns 
 // that single value."
 //"Used when we have more inputs we want 1 output."
-// ex: sum , avg operations
-let arr = [5,6,2,1,3];
-const sumNum = arr.reduce((prev,val) => {return prev+val;});
-const largerNum = arr.reduce((prev,val)=>{ return (prev<val) ? prev : val });
+// ex: for sum,avg,max,min etc
+// let arr = [5,6,2,1,3];
+// const sumNum = arr.reduce((prev,val) => {return prev+val;});    // code for sum; 
+// const largerNum = arr.reduce((prev,val)=>{ return (prev>val) ? prev : val; });  //code of larger num find;
+// console.log(largerNum);
+
+//  Practice Questions:
+//  Q1: we r given arr of mrks of students.
+//      filter out of the marks of students that 
+//      scored 90+.
+// let marksArr = [87,93,64,99,86];
+// let nintyAbove = marksArr.filter(
+//     (val) => {
+//         return val>90; 
+//     }
+// ); 
+// console.log(nintyAbove);
+
+//  Q2: Take a num n as input from user. Creater an arr of num from
+//      1 to n.
+//      (1)->Use the reduce method to calculate sum of all nbr in arr.
+// let arr = [1,2,3,4,5];
+// let sum = arr.reduce(
+//     (element,sum) => {
+//         return element + sum ;
+//     }
+// );
+// console.log(sum);
+//      (2)->Use the reduce method to cal product of all nbrs in arr (Factorial).
+// let arr = [1,2,3,4,5];
+// let productArr = arr.reduce(
+//     (element,product) => {
+//         return element * product;
+//     }
+// );
+// console.log(`Factorial = ${productArr}`);
 
 
+ 
