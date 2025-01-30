@@ -1,0 +1,20 @@
+body{
+    background-color: pink;
+}
+.heading{
+    color: blue;
+    background-color: yellow;
+}  
+button{
+    background-color: purple;
+    color: white;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: blueviolet;
+    color: whitesmoke;
+}
