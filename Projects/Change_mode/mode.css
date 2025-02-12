@@ -1,9 +1,34 @@
+#zindagiM{
+    display: none;
+}
 .dark{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;    
     background-color: black;
     color: white;
+
+    #mode{
+        color: white;
+        background-color: red;
+    }
+    #zindagiM{
+        display: block;
+        background-color: red;
+        color: white;
+    }
+    #Welcome{
+        background-color: red;   
+    }
+    #zindagiA{
+        display: none;
+    }
+   
 }
+
+
 
 .light{
     background-color: white;
     color: black;
 }
+
