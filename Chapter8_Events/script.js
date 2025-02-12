@@ -11,11 +11,11 @@ let div = document.querySelector("#div");
 //     console.log(evt.type);
 //     console.log(evt.clientX,evt.clientY);
 // }
-// btn2.ondblclick = () => {
-//     console.log("Wah chokra wah");
-// }
+btn2.ondblclick = () => {
+    console.log("Wah chokra wah");
+}
 div.onmouseover = ()=>{
-    alert("wahiyat");
+    alert("de khabr");
 }
 
 //in inline event handling html colde is bulky
